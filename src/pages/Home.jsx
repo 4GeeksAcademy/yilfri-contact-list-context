@@ -50,9 +50,9 @@ export const Home = () => {
               <div className="col-md-2">
                 <div className="d-flex justify-content-between">
                   <Link to={`/edit/${contact.id}`}>
-                  <button type="button" className="btn btn-secondary">Editar</button>
+                    <button type="button" className="btn btn-secondary"><i className="fa-solid fa-pencil"></i></button>
                   </Link>
-                  <button type="button" className="btn btn-danger mx-3" onClick={() => deleteContact(contact.id)}>Eliminar</button>
+                  <button type="button" className="btn btn-danger mx-3" onClick={() => deleteContact(contact.id)}><i className="fa-solid fa-trash"></i></button>
                 </div>
               </div>
             </div>
